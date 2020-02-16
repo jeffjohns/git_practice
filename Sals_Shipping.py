@@ -31,12 +31,12 @@ def cost_drone(weight):
   if weight <= 2: 
     cost_drone = weight * 4.50
   elif weight > 2 and weight <=6:
-    cost_drone = weight * 9.00
+    cost_drone = 9.00
   elif weight > 6 and weight <=10:
-    cost_drone = weight * 12.00
+    cost_drone = 12.00
   else:
     weight > 10
-    cost_drone = weight * 14.25
+    cost_drone = 14.25
   return cost_drone
 #print("D " + str(cost_drone(weight)))
 
